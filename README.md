@@ -26,7 +26,7 @@ To process the MODIS Burned Area data the HDF files were pulled into Python, usi
 ## Data Visulization Development
 The visualization was constructed in Power BI, using the three aforementioned datasets in addittion to two addittional generated data sets. One of the addittional data sets was a simple date table that consisted of one row for every single day between 2000 - 2023 to join each of the primary data sources together. The other addittional data set was a table which details AQI categories and can be found on the EPA [website](https://www.epa.gov/outdoor-air-quality-data/air-data-basic-information). The Data Model of the Power BI file is shown below.
 
-![alt text]([http://url/to/img.png](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/blob/main/Power%20BI/pale_blue_dot_datamodel.PNG)
+![Data Model](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/blob/main/Power%20BI/pale_blue_dot_datamodel.PNG)
 
 In PowerQuery, we binned the data to reduce the temporal granularity down to one day and the spatial granularity down to 0.01°, which markedly improved performance of the visualizations and would allow for faster refreshes in the future with more years of data. All of the visuals are included with the standard free version of Power BI Desktop, with custom measures to explore the variables; i.e. Average AQI by Year, Cumulative Area Burned, and Cumulative Fire Radiative Power. The most geographically pertinent data came from the MODIS Active Fire and Burned Area data sets, which was displayed using the standard ArcGIS map, with the built-in heat map clustering and symbology on the Streets basemap.
 
