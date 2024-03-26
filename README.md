@@ -5,12 +5,12 @@ This is a repository for our team's submission files, source data, and Python No
 The aim of the challenge was to develop a compelling data visualization using Earth observation data that advances one of three Sustainable Development Goals (SDGs): Zero Hunger, Clean Water and Sanitation, or Climate Action.  We chose the Climate Action SDG and to focus on wildfires, a threat that is both dramatically striking and relatively suited for Earth-observation data analysis, and their presence in the eastern half of our continent. Our visualization involves not only the spread of the fires themselves, but also tracks the corresponding effects on air quality that can impact populations far removed from the fire itself. Our aim was to raise awareness of under-studied Eastern US wildfires and provide a tool to track this trend, while underscoring the growing dual risk of catastrophic localized fire damage and persistent broad-reaching air quality detriment.
 
 ## Data Sources
-Our data visulization leveraged three primary data sources:
+Our data visualization leveraged three primary data sources:
 1. [Environmental Protection Agency (EPA) Air Quality System Data](https://www.epa.gov/aqs): The Air Quality System (AQS) contains ambient air pollution data collected by EPA, state, local, and tribal air pollution control agencies from over thousands of monitors.
 2. [Moderate Resolution Imaging Spectroradiometer (MODIS) Active Fire Data Product](https://firms.modaps.eosdis.nasa.gov/active_fire/): The MODIS active fire product detects fires in 1-km pixels that are burning at the time of overpass under relatively cloud-free conditions using a contextual algorithm.
 3. [MODIS Burned Area Data Prodcut](https://lpdaac.usgs.gov/products/mcd64a1v061/): The MODIS Burned Area data product is a monthly, global gridded 500 meter (m) product containing per-pixel burned-area and quality information.
 
-We accessed EPA AQS data via the the repository which contains [pre-generated data files](https://aqs.epa.gov/aqsweb/airdata/download_files.html), and the CSV files are stored within this github repository [here](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/tree/main/EPA%20Air%20Quality/AQI%20Data). The EPA AQS data ranges from 2000 - 2023 for every Core-Based Statistical Area (CBSA) in the United States.
+We accessed EPA AQS data via the repository which contains [pre-generated data files](https://aqs.epa.gov/aqsweb/airdata/download_files.html), and the CSV files are stored within this github repository [here](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/tree/main/EPA%20Air%20Quality/AQI%20Data). The EPA AQS data ranges from 2000 - 2023 for every Core-Based Statistical Area (CBSA) in the United States.
 
 The MODIS Active Fire data product was accessed directly from the Fire Information for Resource Management System (FIRMS) website, which is linked above. The data spans 2000-2023 and covers the entire United States and Canada.
 
