@@ -12,7 +12,7 @@ Our data visulization leveraged three primary data sources:
 
 We accessed EPA AQS data via the the repository which contains [pre-generated data files](https://aqs.epa.gov/aqsweb/airdata/download_files.html), and the CSV files are stored within this github repository [here](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/tree/main/EPA%20Air%20Quality/AQI%20Data). The EPA AQS data ranges from 2000 - 2023 for every Core-Based Statistical Area (CBSA) in the United States.
 
-The MODIS Active Fire data product was accessed directly from the Fire Information for Resource Management System (FIRMS) website, which is linked above. The data covers 2000-2023 and covers the entire United States and Canada.
+The MODIS Active Fire data product was accessed directly from the Fire Information for Resource Management System (FIRMS) website, which is linked above. The data spans 2000-2023 and covers the entire United States and Canada.
 
 The MODIS Burned Area data product was downloaded as Hierarchical Data Format (HDF) files from the University of Maryland sftp server. The files are too large to be hosted on a public Github repository, however details on accessing the Burned Area data prpduct can be found in Section 4 of the [Burned Area Product User’s Guide](https://modis-fire.umd.edu/files/MODIS_C61_BA_User_Guide_1.1.pdf). 
 
