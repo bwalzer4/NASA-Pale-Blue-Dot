@@ -10,7 +10,7 @@ Our data visulization leveraged three primary data sources:
 2. [Moderate Resolution Imaging Spectroradiometer (MODIS) Active Fire Data Product](https://firms.modaps.eosdis.nasa.gov/active_fire/): The MODIS active fire product detects fires in 1-km pixels that are burning at the time of overpass under relatively cloud-free conditions using a contextual algorithm.
 3. [MODIS Burned Area Data Prodcut](https://lpdaac.usgs.gov/products/mcd64a1v061/): The MODIS Burned Area data product is a monthly, global gridded 500 meter (m) product containing per-pixel burned-area and quality information.
 
-We accessed EPA AQS data via the the repository which contains [pre-generated data files](https://aqs.epa.gov/aqsweb/airdata/download_files.html), and the CSV files are stored within this github repository [here](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/tree/main/EPA%20Air%20Quality/AQI%20Data). The EPA AQS data ranges from 2000 - 2023 for every Core-Based Statistical Area (CBSA) un the United States.
+We accessed EPA AQS data via the the repository which contains [pre-generated data files](https://aqs.epa.gov/aqsweb/airdata/download_files.html), and the CSV files are stored within this github repository [here](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/tree/main/EPA%20Air%20Quality/AQI%20Data). The EPA AQS data ranges from 2000 - 2023 for every Core-Based Statistical Area (CBSA) in the United States.
 
 The MODIS Active Fire data product was accessed directly from the Fire Information for Resource Management System (FIRMS) website, which is linked above. The data covers 2000-2023 and covers the entire United States and Canada.
 
